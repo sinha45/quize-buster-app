@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Topics = () => {
+const Topics = ({ topics }) => {
+    const [id, logo,] = topics;
     return (
         <div>
-            <h2>This is Topics</h2>
+            <img src={logo} alt="" />
         </div>
     );
 };
